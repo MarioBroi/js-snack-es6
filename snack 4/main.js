@@ -13,4 +13,8 @@ const persone = [
 ];
 
 //- Crea quindi un nuovo array inserendo, per ogni persona, una frase con il nome e cognome e l’indicazione se può guidare, in base all’età.
-//- Confermate lettura come al solito e buon divertimento
+let eligibleToDrive = persone.filter(persone => persone.eta >= 18);
+console.log(eligibleToDrive); //persone maggiorenni
+
+let peopleDriving = eligibleToDrive.map(persone => `${persone.nome} ${persone.cognome} ha l'etá minima per guidare`);
+console.log(peopleDriving); //Array con stringhe di chi puó guidare
