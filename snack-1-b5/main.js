@@ -22,11 +22,12 @@ let tot = 0;
 /*
 for (let i = 0; i < zucchine.length; i++) {
     tot += zucchine[i].peso;
-}; */
+}; 
+*/
 
 //now with a foreach cycle
 zucchine.forEach((zucchine) => {
     tot = tot + zucchine.peso
-})
+});
 
-console.log("Il peso totale delle zucchine é:", tot, "Kg");
+console.log("Il peso totale delle zucchine é:", tot, "g");
