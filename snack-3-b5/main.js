@@ -7,9 +7,14 @@ console.log(word);
 
 wordReverser(word);
 
-function wordReverser(params) {
+/**
+ * This function gonna take a word string and give back the result of the reversed letters
+ * @param {String} word 
+ * @returns 
+ */
+function wordReverser(word) {
     let reversedWord = word.split('').reverse().join('');
     console.log(reversedWord);
 
     return reversedWord;
-}
+};
