@@ -22,11 +22,16 @@ console.log(smallZucchina, bigZucchina);
 //- Infine stampa separatamente quanto pesano i due gruppi di zucchine.
 let totSmall = 0;
 let totBig = 0;
+
+//Zucchine piccole
 smallZucchina.forEach((zucchine) => {
     totSmall = totSmall + zucchine.peso
 });
+console.log("Il peso totale delle zucchine piccole é:", totSmall, "g"); // 480g
+
+//Zucchine grandi
 bigZucchina.forEach((zucchine) => {
     totBig = totBig + zucchine.peso
 });
-console.log("Il peso totale delle zucchine piccole é:", totSmall, "g");
-console.log("Il peso totale delle zucchine grandi é:", totBig, "g");
+
+console.log("Il peso totale delle zucchine grandi é:", totBig, "g"); // 1070g
