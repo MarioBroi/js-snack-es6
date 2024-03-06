@@ -23,4 +23,4 @@ for (let i = 0; i < zucchine.length; i++) {
     tot += zucchine[i].peso;
 }
 
-console.log(tot);
+console.log("Il peso totale delle zucchine é:", tot, "Kg");
